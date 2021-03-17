@@ -3,15 +3,18 @@
 
 #include "nworkbench.h"
 
-class nBlock_FlexCounter: public nBlockSimpleNode<0> {
+class nBlock_FlexCounter: public nBlockSimpleNode<1> {
 
 public:
-    nBlock_FlexCounter(uint32_t maxvalue, uint32_t minvalue, uint32_t step, uint32_t mode);
+    nBlock_FlexCounter(uint32_t maxvalue, uint32_t minvalue, uint32_t step, uint32_t MODE);
     void triggerInput(nBlocks_Message message);
-	void endFrame();
-	   
+	void endFrame(void);
+
+    uint32_t _count;
+	uint32_t mode;
+
 private:
-	uint32_t _count;
+	
 	uint8_t  _direction;
     uint32_t newValueFLAG;	
 };
