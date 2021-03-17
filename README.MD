@@ -1,6 +1,6 @@
 # [FlexCounter](https://github.com/nBlocksStudioNodes/nblocks_flexcounter)
 
-This node is a Flexible Counter
+This nBlocksStudio Node is a Flexible Counter.
 
 ----
 
@@ -14,8 +14,8 @@ width = 300
 ----
 
  *  Category: Time
- *  HAL: mbed
- *  Status Definition: LPC1768
+ *  HAL: no Hardware dependencies
+ *  Status Definition: mbed LPC1768
  *  Author: Nikolaos Chalikias
 
 ## Inputs/Outputs 
@@ -26,7 +26,7 @@ width = 300
  *  uint32_t: maxValue: Maximum Counter Value
  *  uint32_t: minValue: Mimimum Counter Value
  *  uint32_t: step: The value the clock input increments or decrements the counter
- *  uint8_t:  Mode: 0 for UP , 1 for DOWN, 3 for UP/DOWN
+ *  uint8_t:  Mode: 0 for UP , 1 for DOWN, 2 for UP/DOWN
 
 
 

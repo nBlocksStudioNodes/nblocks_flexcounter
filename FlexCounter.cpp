@@ -5,7 +5,7 @@ nBlock_FlexCounter::nBlock_flexCounter(uint32_t maxvalue, uint32_t minvalue, uin
 	_direction = 1
 }
 
-void nBlock_FlexCounter::triggerInput(uint32_t inputNumber, uint32_t value){
+void nBlock_FlexCounter::triggerInput(nBlocks_Message message){
 	if(mode == 0) {
 		_count = count + step;
 		if(_count >= maxvalue) _count = minvalue;
@@ -31,7 +31,6 @@ void nBlock_FlexCounter::triggerInput(uint32_t inputNumber, uint32_t value){
 				_direction = 1;
 			}
 		}
-
 	}
 	newValueFLAG = 1;
 }	
