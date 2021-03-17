@@ -15,7 +15,7 @@ width = 300
 
  *  Category: Time
  *  HAL: no Hardware dependencies
- *  Status Definition: mbed LPC1768
+ *  Status: Tested: mbed LPC1768
  *  Author: Nikolaos Chalikias
 
 ## Inputs/Outputs 
