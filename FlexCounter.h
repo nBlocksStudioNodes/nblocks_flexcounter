@@ -12,6 +12,9 @@ public:
 
     uint32_t _count;
 	uint32_t mode;
+    uint32_t _step;
+    uint32_t _minvalue;
+    uint32_t _maxvalue;
 
 private:
 	
