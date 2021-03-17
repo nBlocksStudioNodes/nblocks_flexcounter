@@ -1,0 +1,58 @@
+{
+    "category": "Time",
+    "name": "FlexCounter",
+    "inputs": 1,
+    "outputs": 1,
+    "parameters": [
+        {
+            "name": "maxvalue",
+            "type": "int",
+            "default": 50000,
+            "options": [
+                ""
+            ],
+            "value": 50000
+        },
+        {
+            "name": "minvalue",
+            "type": "int",
+            "default": 1000,
+            "options": [
+                ""
+            ],
+            "value": 1000
+        },
+        {
+            "name": "step",
+            "type": "int",
+            "default": 500,
+            "options": [
+                ""
+            ],
+            "value": 500
+        },
+        {
+            "name": "mode",
+            "type": "int",
+            "default": 0,
+            "options": [
+                ""
+            ],
+            "value": 0
+        }
+    ],
+    "labels": {
+        "input": [],
+        "output": []
+    },
+    "schematic_pins": {
+        "inputs": [
+            1
+        ],
+        "outputs": [
+            2
+        ]
+    },
+    "repository": "https://github.com/nBlocksStudioNodes/nblocks_flexcounter",
+    "revision": ""
+}
